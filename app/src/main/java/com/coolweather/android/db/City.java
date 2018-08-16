@@ -1,6 +1,6 @@
 package com.coolweather.android.db;
 
-import org.litepal.crud.DataSupport;
+import org.litepal.crud.LitePalSupport;
 
 /**
  * @author Admin
@@ -9,7 +9,7 @@ import org.litepal.crud.DataSupport;
  * @updateAuthor $Author$
  * @updateDes ${TODO}
  */
-public class City extends DataSupport {
+public class City extends LitePalSupport {
     private int id;
     private String cityName;
     private int cityCode;
